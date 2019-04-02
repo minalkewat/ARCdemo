@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163EB15822535E4A00BFFC9D /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = 163EB15722535E4A00BFFC9D /* student.png */; };
+		163EB15A22535E8D00BFFC9D /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EB15922535E8D00BFFC9D /* ContactTableViewCell.swift */; };
+		163EB15C22535EA600BFFC9D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EB15B22535EA600BFFC9D /* ContactViewController.swift */; };
+		163EB15E22535F1600BFFC9D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EB15D22535F1600BFFC9D /* DetailViewController.swift */; };
+		163EB16022535FB500BFFC9D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EB15F22535FB500BFFC9D /* Contact.swift */; };
+		163EB16222535FCF00BFFC9D /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EB16122535FCF00BFFC9D /* Number.swift */; };
+		163EB16422535FDC00BFFC9D /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EB16322535FDC00BFFC9D /* Database.swift */; };
+		163EB16622536A4800BFFC9D /* deViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EB16522536A4800BFFC9D /* deViewController.swift */; };
+		163EB16822536DA500BFFC9D /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EB16722536DA500BFFC9D /* NewContactViewController.swift */; };
 		16EF069622532458009AAFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF069522532458009AAFBB /* AppDelegate.swift */; };
 		16EF069822532458009AAFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF069722532458009AAFBB /* ViewController.swift */; };
 		16EF069B22532458009AAFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EF069922532458009AAFBB /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		163EB15722535E4A00BFFC9D /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student.png; sourceTree = "<group>"; };
+		163EB15922535E8D00BFFC9D /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		163EB15B22535EA600BFFC9D /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		163EB15D22535F1600BFFC9D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		163EB15F22535FB500BFFC9D /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		163EB16122535FCF00BFFC9D /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		163EB16322535FDC00BFFC9D /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		163EB16522536A4800BFFC9D /* deViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deViewController.swift; sourceTree = "<group>"; };
+		163EB16722536DA500BFFC9D /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
 		16EF069222532458009AAFBB /* ARCdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EF069522532458009AAFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16EF069722532458009AAFBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,11 +116,20 @@
 			isa = PBXGroup;
 			children = (
 				16EF069522532458009AAFBB /* AppDelegate.swift */,
+				163EB15722535E4A00BFFC9D /* student.png */,
 				16EF069722532458009AAFBB /* ViewController.swift */,
 				16EF069922532458009AAFBB /* Main.storyboard */,
 				16EF069C2253245A009AAFBB /* Assets.xcassets */,
 				16EF069E2253245A009AAFBB /* LaunchScreen.storyboard */,
 				16EF06A12253245A009AAFBB /* Info.plist */,
+				163EB15922535E8D00BFFC9D /* ContactTableViewCell.swift */,
+				163EB15B22535EA600BFFC9D /* ContactViewController.swift */,
+				163EB15D22535F1600BFFC9D /* DetailViewController.swift */,
+				163EB15F22535FB500BFFC9D /* Contact.swift */,
+				163EB16122535FCF00BFFC9D /* Number.swift */,
+				163EB16322535FDC00BFFC9D /* Database.swift */,
+				163EB16522536A4800BFFC9D /* deViewController.swift */,
+				163EB16722536DA500BFFC9D /* NewContactViewController.swift */,
 			);
 			path = ARCdemo;
 			sourceTree = "<group>";
@@ -230,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16EF06A02253245A009AAFBB /* LaunchScreen.storyboard in Resources */,
+				163EB15822535E4A00BFFC9D /* student.png in Resources */,
 				16EF069D2253245A009AAFBB /* Assets.xcassets in Resources */,
 				16EF069B22532458009AAFBB /* Main.storyboard in Resources */,
 			);
@@ -256,8 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163EB16022535FB500BFFC9D /* Contact.swift in Sources */,
+				163EB16222535FCF00BFFC9D /* Number.swift in Sources */,
+				163EB15A22535E8D00BFFC9D /* ContactTableViewCell.swift in Sources */,
 				16EF069822532458009AAFBB /* ViewController.swift in Sources */,
+				163EB15E22535F1600BFFC9D /* DetailViewController.swift in Sources */,
+				163EB16622536A4800BFFC9D /* deViewController.swift in Sources */,
+				163EB16822536DA500BFFC9D /* NewContactViewController.swift in Sources */,
 				16EF069622532458009AAFBB /* AppDelegate.swift in Sources */,
+				163EB16422535FDC00BFFC9D /* Database.swift in Sources */,
+				163EB15C22535EA600BFFC9D /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
